@@ -17,6 +17,5 @@ function decToOct(decInp) {
 function decToHex(decInp) {
   let y = parseInt(decInp.value);
   let x = y.toString(16);
-  x = isNaN(x) ? 0 : x;
   document.getElementById('disphex').innerHTML = x;
 }
